@@ -59,4 +59,6 @@ protected:
         float rad2deg(float rads) const;
 };
 
+Vector3D constructVec(Point3D p1, Point3D p2);
+
 #endif  /* VECTOR3D_H */

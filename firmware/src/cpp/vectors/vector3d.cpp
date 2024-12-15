@@ -116,3 +116,11 @@ float Vector3D::deg2Rad(float angle) const {
 float Vector3D::rad2deg(float rads) const {
         return rads * (180 / 3.14159265359);
 }
+
+Vector3D constructVec(Point3D p1, Point3D p2) {
+        return Vector3D(
+                p2.x - p1.x,
+                p2.y - p1.y,
+                p2.z - p1.z
+        );
+}
