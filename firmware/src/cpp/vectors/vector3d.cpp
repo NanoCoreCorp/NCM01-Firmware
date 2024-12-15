@@ -1,4 +1,4 @@
-#include "cpp/cmath.hpp"
+#include "c/math.h"
 #include "cpp/vectors/vector3d.h"
 
 bool isClose(float a, float b, float epsilon = 1e-7) {
